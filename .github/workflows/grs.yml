@@ -31,18 +31,30 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.STATS }}
 
-      - name: Generate pin card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: pin
-          options: username=readme-tools&repo=github-readme-stats&theme=shades-of-purple&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage
-          path: profile/pin-stats-organization-github-readme-stats.svg
-          token: ${{ secrets.STATS }}
+      - name: Refresh README card URLs
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          readme = Path("README.md")
+          content = readme.read_text(encoding="utf-8")
+          run_id = "${{ github.run_id }}"
+
+          for card in ("stats", "top-langs"):
+              pattern = rf"https://raw\.githubusercontent\.com/Chaosyr/Chaosyr/.*/profile/{re.escape(card)}\.svg(?:\?[^)\s]*)?"
+              replacement = f"https://raw.githubusercontent.com/Chaosyr/Chaosyr/refs/heads/main/profile/{card}.svg?v={run_id}"
+              content, count = re.subn(pattern, replacement, content)
+              if count != 1:
+                  raise SystemExit(f"Expected exactly one {card} card URL in README.md, found {count}")
+
+          readme.write_text(content, encoding="utf-8")
+          PY
 
       - name: Commit cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
+          git add profile/*.svg README.md
           git commit -m "Update README cards" || exit 0
           git push
