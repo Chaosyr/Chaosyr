@@ -14,4 +14,4 @@ Outside of Modding what else do I do? Well I’m a Youtuber and Twitch streamer 
 
 ![Stats](https://raw.githubusercontent.com/Chaosyr/Chaosyr/refs/heads/main/profile/stats.svg)
 
-![Top Languages](https://raw.githubusercontent.com/Chaosyr/Chaosyr/refs/heads/main/profile/top-langs.svg)
+![Top Languages](https://raw.githubusercontent.com/Chaosyr/Chaosyr/40e92e7ccdb463e92ea0aa5e8d3e1de20c83323a/profile/top-langs.svg)
