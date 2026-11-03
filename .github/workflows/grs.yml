@@ -27,7 +27,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=12&theme=shades-of-purple
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=18&theme=shades-of-purple
           path: profile/top-langs.svg
           token: ${{ secrets.STATS }}
 
