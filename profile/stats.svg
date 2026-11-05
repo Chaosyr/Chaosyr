@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Chaosyr&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 70, Total Commits  (last year) : 570, Total PRs: 111, Total Issues: 38, Contributed to (last year): 17</desc>
+        <desc id="descId">Total Stars Earned: 70, Total Commits  (last year) : 570, Total PRs: 113, Total Issues: 38, Contributed to (last year): 17</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 75.95681735650477;
+        stroke-dashoffset: 75.5880333816987;
       }
     }
   
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >111</text>
+      >113</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
