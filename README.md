@@ -12,6 +12,6 @@ Moving back to the Initial subject, the above is our Vessel members and charts, 
 
 Outside of Modding what else do I do? Well I’m a Youtuber and Twitch streamer for one, I won’t mention every single channel but two of the main ones are [Thincreator3483](https://www.youtube.com/channel/UCIZi4ckwI6JFp-4WkvrOhPQ), [The Stoat Lord](https://www.twitch.tv/the_stoat_lord), and [Chaosyr](https://www.youtube.com/@Chaosyr). I also make software which you can find over on my [GitHub](https://github.com/Chaosyr), and you can see dev streams related to it over on Chaosyr. I also founded [Cecil Libraries](https://github.com/Cecil-Libraries), a library and API development organization centered around C# and making things do as much as possible while remaining simple to use. Some other communities I run are [Pridetale](https://discord.gg/fyJMU9QTp5), [Chaosyr’s Vessel](https://discord.gg/XF4QVjy5aj), [Stoat Games](https://discord.gg/mRpWacaVu2), [Act 2; The Reimagining](https://discord.com/invite/VbKVNFbVEj), [SaxbyMod Support Discord](https://discord.gg/8yDjSXzvgu). There’s also a ton more but I don’t want to keep Historians waiting to long and im also done yapping for now, so we’ll end this here ^^
 
-![Stats](https://raw.githubusercontent.com/Chaosyr/Chaosyr/refs/heads/main/profile/stats.svg?v=42338520152)
+![Stats](https://raw.githubusercontent.com/Chaosyr/Chaosyr/refs/heads/main/profile/stats.svg?v=42445840895)
 
-![Top Languages](https://raw.githubusercontent.com/Chaosyr/Chaosyr/refs/heads/main/profile/top-langs.svg?v=42338520152)
+![Top Languages](https://raw.githubusercontent.com/Chaosyr/Chaosyr/refs/heads/main/profile/top-langs.svg?v=42445840895)
