@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Chaosyr&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 70, Total Commits  (last year) : 592, Total PRs: 119, Total Issues: 38, Contributed to (last year): 17</desc>
+        <title id="titleId">Raven/Chaosyr&#39;s GitHub Stats, Rank: A-</title>
+        <desc id="descId">Total Stars Earned: 70, Total Commits  (last year) : 592, Total PRs: 121, Total Issues: 38, Contributed to (last year): 17</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 74.7143917603896;
+        stroke-dashoffset: 74.38428776365845;
       }
     }
   
@@ -133,7 +133,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >Chaosyr&#39;s GitHub Stats</text>
+      >Raven/Chaosyr&#39;s GitHub Stats</text>
     </g>
       </g>
     
@@ -199,7 +199,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >119</text>
+      >121</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
